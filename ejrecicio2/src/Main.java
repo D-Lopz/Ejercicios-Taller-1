@@ -3,13 +3,9 @@ public class Main {
 
         int[] pares = new int[100];
 
-        for (int i = 0; i < pares.length; i++) {
-            int resto = i % 2;
-
-                if(resto == 0){
+        for (int i = 0; i < pares.length; i+=2) {
 
                 System.out.print(" " + i);
             }
         }
     }
-}
